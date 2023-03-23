@@ -69,3 +69,32 @@ button{
   color: white;
   font-weight: 700;
 }
+
+h2{
+  text-align: center;
+}
+
+.product-info{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100px;
+  text-align: center;
+}
+
+.info p{
+  margin: 4px 0;
+}
+
+.product-info img{
+  width: 120px;
+  height: 120px;
+  border: 2px solid #3882f6;
+  border-radius: 8px;
+}
