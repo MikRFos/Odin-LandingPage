@@ -70,15 +70,24 @@ button{
   font-weight: 700;
 }
 
-h2{
-  text-align: center;
-}
+
 
 .product-info{
   display: flex;
+  flex-direction: column;
+}
+
+.product-info h2{
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.info-cards{
+  display: flex;
   justify-content: center;
   gap: 50px;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
 }
 
 .info{
