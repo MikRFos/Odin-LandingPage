@@ -75,6 +75,7 @@ button{
 .product-info{
   display: flex;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 
 .product-info h2{
@@ -106,4 +107,30 @@ button{
   height: 120px;
   border: 2px solid #3882f6;
   border-radius: 8px;
+}
+
+.testimonaial{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 150px 20%;
+}
+
+.testimonaial-quote{
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
+  padding: 0;
+  margin: 0;
+}
+
+.testimonaial-attribution{
+  font-weight: bold;
+  font-size: 28px;
+  align-self: flex-end;
+  padding-right: 40px;
+  margin: 0;
 }
